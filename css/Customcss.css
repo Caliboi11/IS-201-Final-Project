@@ -1,0 +1,78 @@
+/* General styling for the page */
+body {
+    font-family: Arial, sans-serif;
+    color: #333;
+    line-height: 1.6;
+}
+
+/* Styling for the content boxes */
+.content-box {
+    margin: 20px;
+    padding: 20px;
+    background-color: rgba(255, 255, 255, 0.8);
+    border-radius: 8px;
+}
+
+/* Styling for links */
+a {
+    color: #007bff;
+    text-decoration: none;
+}
+
+a:hover {
+    text-decoration: underline;
+}
+
+/* Header styling */
+header {
+    color: #fff;
+    padding: 50px;
+    text-align: center;
+    background-color: #2b2d42;
+}
+
+/* Navigation styling */
+nav ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+nav ul li {
+    display: inline;
+    margin-right: 15px;
+}
+
+nav ul li a {
+    color: #070707;
+    font-weight: bold;
+}
+
+/* Custom styles for embedded content */
+iframe {
+    display: block;
+    margin: 20px auto;
+}
+/* Set the background for the entire page */
+body {
+    background-image: url('images/page-background.jpg') !important;  /* Replace with your image path */
+    background-color: #200aed !important;  /* Fallback color in case the image doesn't load */
+    background-size: cover !important; /* Ensure the background image covers the whole page */
+    background-position: center !important;
+    margin: 0; /* Remove default margin */
+    font-family: Arial, sans-serif; /* Set the font */
+}
+
+/* Set the background for the header only */
+header {
+    background-color: #2b2d42;  /* Example color for header background */
+    background-image: url('images/cornhole-background.jpg') !;  /* Replace with your header image path */
+    background-size: cover;
+    color: white;
+    text-align: center;
+    padding: 50px;
+}
+
+header h1 {
+    font-size: 2.5em;
+    margin: 0;
+}
